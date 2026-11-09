@@ -9,7 +9,6 @@ class Varasto:
     def paljonko_mahtuu(self):
         # huom: ominaisuus voidaan myös laskea.
         # Ei tarvita erillistä kenttää viela_tilaa tms.
-        # testi yli 80 merkkiä github actionsia varten asdfghjklöäzxcvbnmm,.-_qwe
         return self.tilavuus - self.saldo
 
     def lisaa_varastoon(self, maara):
